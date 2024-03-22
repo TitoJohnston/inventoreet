@@ -1,0 +1,46 @@
+{
+  "name": "inventoreet",
+  "description": "The Karma command line interface.",
+  "homepage": "https://github.com/TitoJohnston/inventoreet.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TitoJohnston/inventoreet.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TitoJohnston/inventoreet.git/issues"
+  },
+  "keywords": [
+    "aliquam",
+    "spectacular",
+    "pariatur",
+    "quas",
+    "js",
+    "aliquam",
+    "testing",
+    "test",
+    "remote",
+    "execution"
+  ],
+  "author": "EttieJerde",
+  "dependencies": {
+    "resolve": "~0.5.1"
+  },
+  "peerDependencies": {},
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-jshint": "~0.7.2",
+    "grunt-coffeelint": "0.0.7",
+    "grunt-bump": "0.0.11",
+    "grunt-npm": "0.0.2",
+    "grunt-auto-release": "0.0.4",
+    "grunt-conventional-changelog": "~1.0.0"
+  },
+  "preferGlobal": true,
+  "bin": {
+    "karma": "./bin/karma"
+  },
+  "engines": {
+    "node": "~0.8 || ~0.10"
+  },
+  "version": "1.0.0"
+}
